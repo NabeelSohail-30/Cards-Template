@@ -1,0 +1,822 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background: lightslategray;
+    padding: 20px;
+}
+
+/* ---------------- Card 01 ---------------- */
+.card-1 {
+    color: white;
+    margin: 10px auto;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, #145C9E, #99a3d4);
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-1:hover {
+    transform: scale(1.05);
+}
+
+.card-1 .card-content {
+    padding: 30px;
+    color: var(white);
+}
+
+.card-1 .card-title {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 .card-text {
+    line-height: 1.6;
+}
+
+.card-1 .card-link {
+    padding: 0px 30px 30px 30px;
+    width: -webkit-fill-available;
+    border-top: 1px solid var(--white);
+}
+
+.card-1 .card-link a {
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.card-1 .card-link a:after {
+    top: 30px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 0;
+    background: var(--white);
+    -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    -moz-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    -o-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.card-1 .card-link a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* ---------------- Card 02 ---------------- */
+
+.card-2 {
+    width: 300px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-2:hover {
+    transform: scale(1.05);
+}
+
+.card-2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-2 .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2 .card-title {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+    padding: 20px;
+}
+
+.card-2 .card-body a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #145C9E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-2 .card-body a:hover {
+    background-color: #99a3d4;
+    color: #145C9E;
+}
+
+/* ---------------- Card 03 ---------------- */
+
+.card-3 {
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-3:hover {
+    transform: scale(1.05);
+}
+
+.card-3 .card-head {
+    height: 220px;
+    background-color: purple;
+    border-radius: 0 0 50% 50%;
+}
+
+.card-3 .card-body {
+    padding: 20px;
+}
+
+.card-3 .card-body .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-3 .card-body a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+}
+
+.card-3 .card-body a:hover {
+    background-color: rgb(174, 63, 174);
+    color: white;
+}
+
+/* ---------------- Card 04 ---------------- */
+
+.card-4 {
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(246, 64, 64);
+    border-radius: 28% 12px 12px 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-4:hover {
+    transform: scale(1.05);
+}
+
+.card-4 .card-body .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.card-4 img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 80%;
+}
+
+.card-4 .card-body .row1 .left {
+    background-color: white;
+    width: fit-content;
+    margin-left: -18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.card-4 .card-body .row1 .right {
+    background-color: white;
+    width: fit-content;
+    margin-right: -18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.card-4 .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card-4 .card-head span {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.7;
+    color: white;
+    margin-left: 20px;
+}
+
+.card-4 .card-body .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 28px;
+    width: 180px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.card-4 .card-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: -28px;
+}
+
+.card-4 .card-body a {
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+}
+
+.card-4 .card-body a:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+/* ---------------- Card 05 ---------------- */
+
+.card-5 {
+    width: 360px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-5:hover {
+    transform: scale(1.05);
+}
+
+.card-5 .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-5 .card-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-5 .badge {
+    background-color: #145C9E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.card-5 .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #145C9E;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-5 .card-sub-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #145C9E;
+    text-align: center;
+    width: 100%;
+}
+
+.card-5 .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #18344f;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card-5 .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card-5 .social-icons a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #145C9E;
+    background-color: #fff;
+    padding: 0px 10px;
+}
+
+.card-5 .card-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.card-5 .card-btns a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #145C9E;
+    border: 4px solid #145C9E;
+    padding: 20px 20px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+    margin: 0px 10px;
+}
+
+.card-5 .card-btns a:hover {
+    background-color: #fff;
+    color: #145C9E;
+}
+
+/* ---------------- Card 06 ---------------- */
+
+.card-6 {
+    width: 300px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-6:hover {
+    transform: scale(1.05);
+}
+
+.card-6 .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-6 .label {
+    background-color: #145C9E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.card-6 .hashtags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-6 .hashtags span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #145C9E;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.card-6 .card-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #145C9E;
+    text-align: left;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+.card-6 .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #18344f;
+    text-align: left;
+    width: 100%;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+
+.card-6 .card-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-6 .card-footer .profile img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-6 .card-footer .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #145C9E;
+    display: block;
+}
+
+.card-6 .card-footer .followers {
+    font-size: 14px;
+    font-weight: bold;
+    color: #145C9E;
+    display: block;
+}
+
+/* ---------------- Card 07 ---------------- */
+
+.card-7 {
+    width: 320px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-7:hover {
+    transform: scale(1.10);
+}
+
+.card-7 .card-head .bg-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background-color: yellow;
+}
+
+.card-7 .card-head .bg-round {
+    width: 70%;
+    height: 220px;
+    background-color: rgb(244, 207, 0);
+    margin: -180px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 50% 50%;
+    align-self: center;
+}
+
+.card-7 .card-head .product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+}
+
+.card-7 .card-head .product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-7 .card-head .label {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25%;
+    margin-top: -200px;
+    text-align: center;
+}
+
+.card-7 .card-body .price-tag {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    display: block;
+    margin-top: 180px;
+    padding: 5px 10px;
+    border-radius: 0px 20px 20px 0px;
+    width: 40%;
+    text-align: center;
+}
+
+.card-7 .card-body .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 10px auto;
+}
+
+.card-7 .card-body .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 2px 10px;
+    margin: 0px auto;
+}
+
+.card-7 .card-body .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.card-7 .card-body .card-btn a {
+    background-color: rgb(219, 188, 11);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-7 .card-body .card-btn a:hover {
+    background-color: rgb(244, 207, 0);
+    color: black;
+}
+
+/* ---------------- Card 08 ---------------- */
+
+.card-8 {
+    width: 320px;
+    height: fit-content;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-8:hover {
+    transform: scale(1.10);
+    background-color: whitesmoke;
+    background-image: none;
+}
+
+.card-8:hover .card-title,
+.card-8:hover .card-text {
+    color: black;
+}
+
+.card-8 .date {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    width: fit-content;
+    padding: 2px 20px;
+    margin: 20px auto;
+    margin-right: 0px;
+}
+
+.card-8 .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.card-8 .card-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    padding: 2px 20px;
+    margin: 0px auto;
+}
+
+.card-8 .tag {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    width: fit-content;
+    padding: 2px 20px;
+    margin: 20px 0px;
+    margin-left: 20px;
+}
+
+/* ---------------- Card 09 ---------------- */
+
+.card-9 {
+    width: 360px;
+    height: fit-content;
+    background-color: rgb(0, 0, 30);
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-9:hover {
+    transform: scale(1.10);
+}
+
+.card-9 .title-light {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-9 .title-bold {
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 14px auto;
+    letter-spacing: 2px;
+}
+
+.card-9 .product-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-9 .product-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-9 .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.card-9 .time-left {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: fit-content;
+    padding: 2px 20px;
+    margin: 20px auto;
+}
+
+.card-9 .time-left .time {
+    margin: 20px auto;
+}
+
+.card-9 .time-left .time span {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: fit-content;
+    padding: 2px 14px;
+    margin: 20px 6px;
+    border-radius: 8px;
+}
+
+.card-9 .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card-9 .card-btn a {
+    background-color: rgb(57, 103, 255);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-9 .card-btn a:hover {
+    background-color: white;
+    color: rgb(57, 103, 255);
+}
