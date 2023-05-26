@@ -820,3 +820,79 @@ body {
     background-color: white;
     color: rgb(57, 103, 255);
 }
+
+/* ---------------- Card 10 ---------------- */
+
+.card-10 {
+    width: 360px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    padding: 30px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-10:hover {
+    transform: scale(1.10);
+}
+
+.card-10 .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-10 .profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-10 .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #145C9E;
+    text-align: center;
+    padding: 6px 10px;
+    margin: auto;
+}
+
+.card-10 .card-sub-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #145C9E;
+    text-align: center;
+    width: 100%;
+    padding: 2px 10px;
+    margin: 0px auto;
+}
+
+.card-10 .card-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #18344f;
+    text-align: center;
+    width: 100%;
+    padding: 2px 10px;
+    margin: 0px auto;
+}
+
+.card-10 .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card-10 .social-media a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #145C9E;
+    background-color: #fff;
+    padding: 0px 10px;
+}
