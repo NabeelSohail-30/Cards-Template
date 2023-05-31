@@ -896,3 +896,104 @@ body {
     background-color: #fff;
     padding: 0px 10px;
 }
+
+/* ---------------- Card 11 ---------------- */
+
+.card-11 {
+    width: 300px;
+    height: fit-content;
+    background-color: #272434;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px 20px;
+    padding: 30px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-11:hover {
+    transform: scale(1.10);
+}
+
+.card-11 .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-11 .card-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #dc2680;
+}
+
+.card-11 .card-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 18px auto;
+}
+
+.card-11 .stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    color: #fff;
+    font-weight: 700;
+}
+
+.card-11 .stats .stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.card-11 .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card-11 .social-media a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dc2680;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.card-11 .btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.card-11 .btns a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 4px solid #57bec9;
+    border-radius: 6px;
+    margin: 10px 0px;
+    width: 70%;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+.card-11 .btns a:hover {
+    border-color: #dc2680;
+    color: #57bec9;
+}
